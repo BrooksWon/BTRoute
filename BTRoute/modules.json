@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "modules": [{
+                "id": "IndexModule",
+                "name": "首页",
+                "handler": "IndexRouteHandler",
+                "routes": [
+                           "bt://index",
+                           "bt://home"
+                           ]
+                }, {
+                "id": "UserModule",
+                "name": " 用户页",
+                "handler": "UserRouteHandler",
+                "routes": [
+                           "bt://user"
+                           ]
+                }, {
+                "id": "WebModule",
+                "name": "web页",
+                "handler": "WebViewRouteHandler",
+                "routes": [
+                           "bt://WebModule"
+                           ]
+                }, {
+                "id": "LoginModule",
+                "name": "登陆页",
+                "handler": "LoginRouteHandler",
+                "routes": [
+                           "bt://login"
+                           ]
+                }, {
+                "id": "SettingModule",
+                "name": "设置页",
+                "handler": "SettingRouteHandler",
+                "routes": [
+                           "bt://setting"
+                           ]
+                }]
+}
