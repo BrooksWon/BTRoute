@@ -44,12 +44,6 @@ static NSString *const configuration = @"modules";
         // 注册自定义路由
         for (NSString *route in module.routes) {
             [BTURLRouter registerHandler:module.routeHandlerClazz forRoute:route];
-            
-            // 注册防干扰路由
-            if ([route hasPrefix:@"bt"]) {
-                NSString *anotherRoute = [route stringByReplacingOccurrencesOfString:@"bt" withString:@"abc"];
-                [BTURLRouter registerHandler:module.routeHandlerClazz forRoute:anotherRoute];
-            }
         }
         
         // 注册应用内路由

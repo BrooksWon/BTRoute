@@ -20,7 +20,7 @@
                 "name": "web页",
                 "handler": "WebViewRouteHandler",
                 "routes": [
-                           "bt://WebModule"
+                           "bt://Web"
                            ]
                 }, {
                 "id": "LoginModule",

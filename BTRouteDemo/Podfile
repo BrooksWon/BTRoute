@@ -8,6 +8,8 @@ target 'BTRouteDemo' do
   pod 'DeepLinkKit', '~> 1.2.2'
   pod 'JSONModel', '~> 1.5.1'
 
-  # Pods for BTRouteDemo
+    target 'BTRouteDemoTests' do
+        inherit! :search_paths
+    end
 
 end

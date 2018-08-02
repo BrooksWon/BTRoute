@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		009C79BE88C2F4C986644CD3E0B088C2 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E55AE9C7FA63358B1EBD64EBBEA569 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01718368FD2AE600071531EECF710F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		06697BBB6E6D73B5F021E6DACAC5DE45 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCEB726B8B92A80360DB24D0C28AE81 /* JSONAPI.m */; };
 		0B1C5725C7BE03D622114275D6FD6EFA /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC87469CAC28B2C5F9392DF67FF250 /* JSONModelError.m */; };
 		0BEC3707BAAC1FEEF4EB365EBE1E6F4D /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FF98C2C870184CC3B8BB7FD7206C31 /* DPLDeepLink.m */; };
@@ -25,12 +26,13 @@
 		37F6913EE3CD6EB8715086F0C9F6A823 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C1F82543E83F33051C8483C4D0061 /* JSONValueTransformer.m */; };
 		37FD169854FF4B397051998D611F152A /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 497649A8BCA22778B1748F6EB02C7DF4 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DCCD6F4308AA0BC518002AB3A31715B /* DPLMatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 975319DF412ABC9E8FD1E38826E41667 /* DPLMatchResult.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2A4E95453C38631738A61DE292D4EC /* Pods-BTRouteDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F01071C13389F92AC8E59C67956549 /* Pods-BTRouteDemoTests-dummy.m */; };
 		3F706B0A0613E472DB39724139924E11 /* DPLMutableDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4015BC3904D9A222FF05415A425982 /* DPLMutableDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40A6216FC50B4540584DA1C45F98F9FD /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 411183AAC58200FAAAB52CA9920F040B /* JSONModelClassProperty.m */; };
 		42E86B931D77B800C9E931E5DACB70B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		46B85C1F7E511764EDEED7631C19D93D /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD429AD0BBD581A242AADEE44C7DC7C /* DPLMatchResult.m */; };
 		49D74700744B3C5E10D296F89820A264 /* UINavigationController+DPLRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = E59ACEA58D9E3BE4E2053FEBDAAF5CFF /* UINavigationController+DPLRouting.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4CF61D2317A40EF7446B23BA883C5CEB /* Pods-BTRouteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424E482D2333D206CB145B6791D997A3 /* Pods-BTRouteDemo-dummy.m */; };
+		4CF61D2317A40EF7446B23BA883C5CEB /* Pods-BTRouteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6388DAD61E27BA3B4C5E455D72CF6 /* Pods-BTRouteDemo-dummy.m */; };
 		4EB17293737C717D12298CFFE6A67514 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D321B6DC5682E27D7BDD2E40E59DBF /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		574A8FCF544246EF957254B8C76EF1E8 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 03673DE657296816E61283D45C9A7B64 /* DPLMutableDeepLink.m */; };
 		57FE38F17C0EDD5CF73B2A084A17586E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB1FB8D464E27DFD0009F77779D1587 /* JSONHTTPClient.m */; };
@@ -64,13 +66,21 @@
 		E25F70DF4250AAD6E12F71B4124279A7 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E7ECB0AA44C5A975DBB12B59DE315F /* NSString+DPLJSON.m */; };
 		E39D9A942BCE728467A42C478816966F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F4ABD5C5F13F83C5E2A9F6B9739426 /* JSONModel.m */; };
 		E3C47E114E924D2F331F9A3F122AEE5C /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1E0C5D086C899201D3EDEB7C272256 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3EE6598EC92E43C03DD81B1C2FE788D /* Pods-BTRouteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25616FB6531DC66A566FD4A38D0397C5 /* Pods-BTRouteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EE6598EC92E43C03DD81B1C2FE788D /* Pods-BTRouteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F263C3A365AFD074403973372B856577 /* Pods-BTRouteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF92AC01AD907A7C4FE1C9345122029 /* DeepLinkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2273C03FF4ACB4D9891800ADE66EB5 /* DeepLinkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7157F0604106A158BFCC97E521A86F8 /* Pods-BTRouteDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF5D0A921AABE25DB79A666741D38E6 /* Pods-BTRouteDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F73BC5EBAB77C03BDB19D528ACFD3D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F785711A636DD24DB43A7AC2E84F722E /* DPLDeepLinkRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 299CF02C939462791D3EA66F87B8422C /* DPLDeepLinkRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CA5F653CD1A687FA5D29154F6AF180C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B3228744FDD0F84354334A87ADEE9E;
+			remoteInfo = "Pods-BTRouteDemo";
+		};
 		D7D32ADF7842C8A5A2178138D449C2E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -88,8 +98,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0187689ACAA3A14EDCEABE41D63200F9 /* Pods-BTRouteDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		03673DE657296816E61283D45C9A7B64 /* DPLMutableDeepLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLMutableDeepLink.m; path = DeepLinkKit/DeepLink/DPLMutableDeepLink.m; sourceTree = "<group>"; };
-		069FE7B12DFF5A3941FC55FCB56FF1D2 /* DeepLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeepLinkKit.framework; path = DeepLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F01071C13389F92AC8E59C67956549 /* Pods-BTRouteDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTRouteDemoTests-dummy.m"; sourceTree = "<group>"; };
 		093EC6591DFA23B87BFB2E91EAE6C08B /* DeepLinkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeepLinkKit-prefix.pch"; sourceTree = "<group>"; };
 		0A1877BF7DB67C72BFE294A723000320 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
 		0BD429AD0BBD581A242AADEE44C7DC7C /* DPLMatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLMatchResult.m; path = DeepLinkKit/Regex/DPLMatchResult.m; sourceTree = "<group>"; };
@@ -97,27 +108,26 @@
 		10F64517C4B9F1E4CCAA0331A4664FAC /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
 		17DCB2D5A705759F6623D5778D86FFF7 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
 		19E55AE9C7FA63358B1EBD64EBBEA569 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		1A2BA77E3A99A1DA75A1A1F3D0F8A201 /* Pods_BTRouteDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTRouteDemoTests.framework; path = "Pods-BTRouteDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C914BDA4727025DD3C31FAD2810FBF9 /* Pods-BTRouteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTRouteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DB8E88514AA319DDBEC92DF81E9FF59 /* DeepLinkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeepLinkKit-dummy.m"; sourceTree = "<group>"; };
 		20D321B6DC5682E27D7BDD2E40E59DBF /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		24B723CCCD62A82F0580071D8E75EBC7 /* NSString+DPLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DPLQuery.h"; path = "DeepLinkKit/Categories/NSString+DPLQuery.h"; sourceTree = "<group>"; };
-		25616FB6531DC66A566FD4A38D0397C5 /* Pods-BTRouteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTRouteDemo-umbrella.h"; sourceTree = "<group>"; };
 		27465BBA2551882E7E4FD2A2FF6DE70D /* DPLRouteMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRouteMatcher.h; path = DeepLinkKit/RouteMatcher/DPLRouteMatcher.h; sourceTree = "<group>"; };
 		299CF02C939462791D3EA66F87B8422C /* DPLDeepLinkRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLDeepLinkRouter.h; path = DeepLinkKit/Router/DPLDeepLinkRouter.h; sourceTree = "<group>"; };
 		2DCEB726B8B92A80360DB24D0C28AE81 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		2DE5A0B75E0B73A8CBB18A99ADC31E97 /* Pods-BTRouteDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTRouteDemoTests.modulemap"; sourceTree = "<group>"; };
 		31373D0FE17FCDED23A9E2F677C30125 /* DPLMutableDeepLink+AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPLMutableDeepLink+AppLinks.h"; path = "DeepLinkKit/DeepLink/DPLMutableDeepLink+AppLinks.h"; sourceTree = "<group>"; };
-		3173637DB871E281357DB90779006E09 /* Pods_BTRouteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTRouteDemo.framework; path = "Pods-BTRouteDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3300B34C24F2DADD8C1B12CE51B2254B /* DeepLinkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeepLinkKit.xcconfig; sourceTree = "<group>"; };
 		37B36AEF222053B5DF97FF198848597B /* AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppLinks.h; path = DeepLinkKit/AppLinks.h; sourceTree = "<group>"; };
-		3C00AF6459C087FDFBF45207B5B58029 /* Pods-BTRouteDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemo-frameworks.sh"; sourceTree = "<group>"; };
 		411183AAC58200FAAAB52CA9920F040B /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		414E84FB6202A5172A5E81E7A31B38E2 /* NSString+DPLTrim.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLTrim.m"; path = "DeepLinkKit/Categories/NSString+DPLTrim.m"; sourceTree = "<group>"; };
 		415C968650AF445A45E2E19CF23779B8 /* NSObject+DPLJSONObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DPLJSONObject.h"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.h"; sourceTree = "<group>"; };
-		424E482D2333D206CB145B6791D997A3 /* Pods-BTRouteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTRouteDemo-dummy.m"; sourceTree = "<group>"; };
-		428D9478DA64F043ABA76BC1F952DDEE /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		470300089EA57BE46907AB0400C4BED8 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		48DF0518DCFA971F0479060A5E3FEC88 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		497649A8BCA22778B1748F6EB02C7DF4 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		4A39D9DAB793D94BB3D510CA190247F5 /* DPLRouteMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLRouteMatcher.m; path = DeepLinkKit/RouteMatcher/DPLRouteMatcher.m; sourceTree = "<group>"; };
+		4AE6388DAD61E27BA3B4C5E455D72CF6 /* Pods-BTRouteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTRouteDemo-dummy.m"; sourceTree = "<group>"; };
 		4B7BB242B4C8776BCCE7E8A5DB7075E2 /* DPLDeepLink+AppLinks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPLDeepLink+AppLinks.m"; path = "DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.m"; sourceTree = "<group>"; };
 		4BEC87469CAC28B2C5F9392DF67FF250 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 		4C6C1F82543E83F33051C8483C4D0061 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
@@ -126,45 +136,56 @@
 		5E2273C03FF4ACB4D9891800ADE66EB5 /* DeepLinkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeepLinkKit.h; path = DeepLinkKit/DeepLinkKit.h; sourceTree = "<group>"; };
 		606C7334E5B163F90B8D0E9D1787D1A5 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
 		61F10A5569B0F7F76FA89FF521AEDE3D /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
-		700DCBB36A0522D1AEC56BA23AADF04F /* Pods-BTRouteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTRouteDemo.modulemap"; sourceTree = "<group>"; };
+		692F949EF78ABDB0E8350596D6CC651E /* Pods-BTRouteDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTRouteDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7178D61C87E5124928919E995AB86BF9 /* DPLTargetViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLTargetViewControllerProtocol.h; path = DeepLinkKit/Protocols/DPLTargetViewControllerProtocol.h; sourceTree = "<group>"; };
 		757F4B61EB61CFCE3B0A6766E8224A2D /* DeepLinkKit_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeepLinkKit_Private.h; path = DeepLinkKit/DeepLinkKit_Private.h; sourceTree = "<group>"; };
 		77F08F42B23D674D5CAE199BEDB345AA /* DPLRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRouteHandler.h; path = DeepLinkKit/RouteHandler/DPLRouteHandler.h; sourceTree = "<group>"; };
+		7855AB011F7929B30C8573774CED20F6 /* Pods-BTRouteDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemoTests-frameworks.sh"; sourceTree = "<group>"; };
 		7AEC867E4678A8A474E47C8E161393E9 /* DPLErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLErrors.h; path = DeepLinkKit/Errors/DPLErrors.h; sourceTree = "<group>"; };
-		7C31DA87C10CE719B18F0C868B4DCDC6 /* Pods-BTRouteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7E4015BC3904D9A222FF05415A425982 /* DPLMutableDeepLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLMutableDeepLink.h; path = DeepLinkKit/DeepLink/DPLMutableDeepLink.h; sourceTree = "<group>"; };
-		84D082C9DCC2A3DF1D64C582850DFE65 /* Pods-BTRouteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTRouteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		8657BBB6DE72199EE2A7A9060CE36594 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87EE40F85DA362D54389C099B9FF0112 /* DPLDeepLinkRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLDeepLinkRouter.m; path = DeepLinkKit/Router/DPLDeepLinkRouter.m; sourceTree = "<group>"; };
 		8F840F156854DF570D6438AE7B80F82F /* DPLSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLSerializable.h; path = DeepLinkKit/Protocols/DPLSerializable.h; sourceTree = "<group>"; };
+		90D280BD76EA11D190A291B7A1CD9348 /* Pods-BTRouteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemo.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FF95BB3F59FDCA3CE2DE5F36BB7B11 /* Pods-BTRouteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTRouteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95697FAA26DD62F4402E1E970723353E /* NSString+DPLQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLQuery.m"; path = "DeepLinkKit/Categories/NSString+DPLQuery.m"; sourceTree = "<group>"; };
 		95BE8E5FF1155E23A18144D723D90579 /* DPLDeepLink_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLDeepLink_Private.h; path = DeepLinkKit/DeepLink/DPLDeepLink_Private.h; sourceTree = "<group>"; };
 		975319DF412ABC9E8FD1E38826E41667 /* DPLMatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLMatchResult.h; path = DeepLinkKit/Regex/DPLMatchResult.h; sourceTree = "<group>"; };
+		9C24F679AB7659D91F6042565DBCBB39 /* Pods_BTRouteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTRouteDemo.framework; path = "Pods-BTRouteDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D69ECBC6126ED26DA20D3A5F9DBED8F /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A458DDE07A4E005E520B110159F430 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		A5F4ABD5C5F13F83C5E2A9F6B9739426 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		A9F237A4757FD7EAC591ED8B548447A5 /* Pods-BTRouteDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemoTests-resources.sh"; sourceTree = "<group>"; };
 		ACFD737C8C55A3593ABEC77D5A28CD74 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
 		B173927D57F46165B23B0963AB7FA1D5 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
 		B24A3D1C6BC919CB76E592A71985A74C /* DPLDeepLink+AppLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DPLDeepLink+AppLinks.h"; path = "DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.h"; sourceTree = "<group>"; };
 		B9FF98C2C870184CC3B8BB7FD7206C31 /* DPLDeepLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLDeepLink.m; path = DeepLinkKit/DeepLink/DPLDeepLink.m; sourceTree = "<group>"; };
 		BB4F098FF9922400D95001E03D13BA51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF741372524AD1E9CCC83EFB41A20088 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52DB2B43A455D9115E43A4A24AB54C6 /* Pods-BTRouteDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemo-resources.sh"; sourceTree = "<group>"; };
+		C654DB3E4BEA2E69867A85C043045660 /* Pods-BTRouteDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemo-frameworks.sh"; sourceTree = "<group>"; };
 		C77CC0AE6BC329A0C3FB04827E558380 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		C8D72E6632CD1FC45D89DAEFED84D482 /* Pods-BTRouteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTRouteDemo.modulemap"; sourceTree = "<group>"; };
 		CA1E0C5D086C899201D3EDEB7C272256 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
 		CB5FCC1113F53FF16E5B47B4AD2D76D1 /* DeepLinkKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeepLinkKit.modulemap; sourceTree = "<group>"; };
 		CCE77C9F3ACC1C07F749D495ACB1C8CC /* DPLRegularExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPLRegularExpression.m; path = DeepLinkKit/Regex/DPLRegularExpression.m; sourceTree = "<group>"; };
 		D223295C8F21E559B4123970848AAB3D /* UINavigationController+DPLRouting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+DPLRouting.m"; path = "DeepLinkKit/Categories/UINavigationController+DPLRouting.m"; sourceTree = "<group>"; };
 		D3929E43E896640BB7871AAFF3531D6E /* NSString+DPLTrim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DPLTrim.h"; path = "DeepLinkKit/Categories/NSString+DPLTrim.h"; sourceTree = "<group>"; };
 		D4E7ECB0AA44C5A975DBB12B59DE315F /* NSString+DPLJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DPLJSON.m"; path = "DeepLinkKit/Categories/NSString+DPLJSON.m"; sourceTree = "<group>"; };
+		D8476149B23A6AE187E0B72495B05441 /* Pods-BTRouteDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB62BF40A6B80D32B52F07FD58BAE1CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4AAB075BD41FA6CD1E2EDC335FFC82 /* Pods-BTRouteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTRouteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DFB1FB8D464E27DFD0009F77779D1587 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		DFF8F2B9337C1DB1C181293E6C58E201 /* DeepLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeepLinkKit.framework; path = DeepLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C648A269113A2EEAF8A97284979896 /* NSString+DPLJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DPLJSON.h"; path = "DeepLinkKit/Categories/NSString+DPLJSON.h"; sourceTree = "<group>"; };
-		E17CC62D13E1DE491F11CA004A1CB7AC /* Pods-BTRouteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3087AE249F8ADDAFF803B35FAC8FD33 /* DeepLinkKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeepLinkKit-umbrella.h"; sourceTree = "<group>"; };
+		E4E25C0A9FBD5D108624FFA3C65DD66B /* Pods-BTRouteDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTRouteDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E59ACEA58D9E3BE4E2053FEBDAAF5CFF /* UINavigationController+DPLRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+DPLRouting.h"; path = "DeepLinkKit/Categories/UINavigationController+DPLRouting.h"; sourceTree = "<group>"; };
 		EDB1E9BD38ACC8F6570E6DA5856C46D5 /* NSObject+DPLJSONObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DPLJSONObject.m"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.m"; sourceTree = "<group>"; };
+		EEF5D0A921AABE25DB79A666741D38E6 /* Pods-BTRouteDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTRouteDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		F263C3A365AFD074403973372B856577 /* Pods-BTRouteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTRouteDemo-umbrella.h"; sourceTree = "<group>"; };
 		F44AEDDF2D36EDA550937EDE32A1B7BD /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
-		F9B5D4DB7A1E3253AA1C53F5E75559E0 /* Pods-BTRouteDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTRouteDemo-resources.sh"; sourceTree = "<group>"; };
+		F67D2BF00E932952FAFFC71D06DCB74F /* Pods-BTRouteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTRouteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA55D9ADBF84267268034087477295AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE2A8C7563C6B58E906C0C234C67F39E /* DPLMutableDeepLink+AppLinks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DPLMutableDeepLink+AppLinks.m"; path = "DeepLinkKit/DeepLink/DPLMutableDeepLink+AppLinks.m"; sourceTree = "<group>"; };
 		FE4C4BDADD39876FDFBF3D277A2EF528 /* DPLRegularExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPLRegularExpression.h; path = DeepLinkKit/Regex/DPLRegularExpression.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73BC5EBAB77C03BDB19D528ACFD3D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33495FEE9D36CAB2EC1D79897CBF291F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01718368FD2AE600071531EECF710F15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +226,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E2EA710A380FF6DE8B2B5BF9860EFC9 /* Targets Support Files */ = {
+		13FDA80F7F249F3F0143B8F67823888F /* Pods-BTRouteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5AD5F08E11C22D30B4487577E13C749D /* Pods-BTRouteDemo */,
+				DB62BF40A6B80D32B52F07FD58BAE1CD /* Info.plist */,
+				C8D72E6632CD1FC45D89DAEFED84D482 /* Pods-BTRouteDemo.modulemap */,
+				DE4AAB075BD41FA6CD1E2EDC335FFC82 /* Pods-BTRouteDemo-acknowledgements.markdown */,
+				1C914BDA4727025DD3C31FAD2810FBF9 /* Pods-BTRouteDemo-acknowledgements.plist */,
+				4AE6388DAD61E27BA3B4C5E455D72CF6 /* Pods-BTRouteDemo-dummy.m */,
+				C654DB3E4BEA2E69867A85C043045660 /* Pods-BTRouteDemo-frameworks.sh */,
+				C52DB2B43A455D9115E43A4A24AB54C6 /* Pods-BTRouteDemo-resources.sh */,
+				F263C3A365AFD074403973372B856577 /* Pods-BTRouteDemo-umbrella.h */,
+				F67D2BF00E932952FAFFC71D06DCB74F /* Pods-BTRouteDemo.debug.xcconfig */,
+				90D280BD76EA11D190A291B7A1CD9348 /* Pods-BTRouteDemo.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-BTRouteDemo";
+			path = "Target Support Files/Pods-BTRouteDemo";
 			sourceTree = "<group>";
 		};
 		3A7519CE7C3ABECE5FCE3DFD3243B85D /* DeepLinkKit */ = {
@@ -249,16 +288,6 @@
 			path = DeepLinkKit;
 			sourceTree = "<group>";
 		};
-		3F6E750E0E352C7C716D03F069AAD3E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				069FE7B12DFF5A3941FC55FCB56FF1D2 /* DeepLinkKit.framework */,
-				428D9478DA64F043ABA76BC1F952DDEE /* JSONModel.framework */,
-				3173637DB871E281357DB90779006E09 /* Pods_BTRouteDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		441D4BC5F4E027F967B0F60D44F076A7 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,24 +328,6 @@
 			path = "../Target Support Files/DeepLinkKit";
 			sourceTree = "<group>";
 		};
-		5AD5F08E11C22D30B4487577E13C749D /* Pods-BTRouteDemo */ = {
-			isa = PBXGroup;
-			children = (
-				BF741372524AD1E9CCC83EFB41A20088 /* Info.plist */,
-				700DCBB36A0522D1AEC56BA23AADF04F /* Pods-BTRouteDemo.modulemap */,
-				94FF95BB3F59FDCA3CE2DE5F36BB7B11 /* Pods-BTRouteDemo-acknowledgements.markdown */,
-				84D082C9DCC2A3DF1D64C582850DFE65 /* Pods-BTRouteDemo-acknowledgements.plist */,
-				424E482D2333D206CB145B6791D997A3 /* Pods-BTRouteDemo-dummy.m */,
-				3C00AF6459C087FDFBF45207B5B58029 /* Pods-BTRouteDemo-frameworks.sh */,
-				F9B5D4DB7A1E3253AA1C53F5E75559E0 /* Pods-BTRouteDemo-resources.sh */,
-				25616FB6531DC66A566FD4A38D0397C5 /* Pods-BTRouteDemo-umbrella.h */,
-				7C31DA87C10CE719B18F0C868B4DCDC6 /* Pods-BTRouteDemo.debug.xcconfig */,
-				E17CC62D13E1DE491F11CA004A1CB7AC /* Pods-BTRouteDemo.release.xcconfig */,
-			);
-			name = "Pods-BTRouteDemo";
-			path = "Target Support Files/Pods-BTRouteDemo";
-			sourceTree = "<group>";
-		};
 		5AFB315FF1B299EB2477FC8AE3352EDC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,14 +345,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		75EBD32618CDC17C35587EBB90F7543C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13FDA80F7F249F3F0143B8F67823888F /* Pods-BTRouteDemo */,
+				FA75D4ED5577DAF554BCED21CC60D10D /* Pods-BTRouteDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5AFB315FF1B299EB2477FC8AE3352EDC /* Pods */,
-				3F6E750E0E352C7C716D03F069AAD3E8 /* Products */,
-				0E2EA710A380FF6DE8B2B5BF9860EFC9 /* Targets Support Files */,
+				E2DAA16BE5BB9D65C5E9FE3B9460ABDF /* Products */,
+				75EBD32618CDC17C35587EBB90F7543C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -365,6 +385,35 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		E2DAA16BE5BB9D65C5E9FE3B9460ABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8F2B9337C1DB1C181293E6C58E201 /* DeepLinkKit.framework */,
+				9D69ECBC6126ED26DA20D3A5F9DBED8F /* JSONModel.framework */,
+				9C24F679AB7659D91F6042565DBCBB39 /* Pods_BTRouteDemo.framework */,
+				1A2BA77E3A99A1DA75A1A1F3D0F8A201 /* Pods_BTRouteDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA75D4ED5577DAF554BCED21CC60D10D /* Pods-BTRouteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA55D9ADBF84267268034087477295AD /* Info.plist */,
+				2DE5A0B75E0B73A8CBB18A99ADC31E97 /* Pods-BTRouteDemoTests.modulemap */,
+				E4E25C0A9FBD5D108624FFA3C65DD66B /* Pods-BTRouteDemoTests-acknowledgements.markdown */,
+				692F949EF78ABDB0E8350596D6CC651E /* Pods-BTRouteDemoTests-acknowledgements.plist */,
+				03F01071C13389F92AC8E59C67956549 /* Pods-BTRouteDemoTests-dummy.m */,
+				7855AB011F7929B30C8573774CED20F6 /* Pods-BTRouteDemoTests-frameworks.sh */,
+				A9F237A4757FD7EAC591ED8B548447A5 /* Pods-BTRouteDemoTests-resources.sh */,
+				EEF5D0A921AABE25DB79A666741D38E6 /* Pods-BTRouteDemoTests-umbrella.h */,
+				0187689ACAA3A14EDCEABE41D63200F9 /* Pods-BTRouteDemoTests.debug.xcconfig */,
+				D8476149B23A6AE187E0B72495B05441 /* Pods-BTRouteDemoTests.release.xcconfig */,
+			);
+			name = "Pods-BTRouteDemoTests";
+			path = "Target Support Files/Pods-BTRouteDemoTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +456,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		905EAA86ED207AB5D4D0FF59B5AF55F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7157F0604106A158BFCC97E521A86F8 /* Pods-BTRouteDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBF7227F5BD0440E9DF598DF26EC3891 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,7 +500,25 @@
 			);
 			name = "Pods-BTRouteDemo";
 			productName = "Pods-BTRouteDemo";
-			productReference = 3173637DB871E281357DB90779006E09 /* Pods_BTRouteDemo.framework */;
+			productReference = 9C24F679AB7659D91F6042565DBCBB39 /* Pods_BTRouteDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		653B58E44F126C536B67BC9EF73B4778 /* Pods-BTRouteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08C22C1736930E914DB8C036557CADE /* Build configuration list for PBXNativeTarget "Pods-BTRouteDemoTests" */;
+			buildPhases = (
+				0A1174E9663EE933C4C9EE274340946F /* Sources */,
+				33495FEE9D36CAB2EC1D79897CBF291F /* Frameworks */,
+				905EAA86ED207AB5D4D0FF59B5AF55F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B73321FC6C3BFC66AB2317AE8FE63AD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-BTRouteDemoTests";
+			productName = "Pods-BTRouteDemoTests";
+			productReference = 1A2BA77E3A99A1DA75A1A1F3D0F8A201 /* Pods_BTRouteDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */ = {
@@ -460,7 +535,7 @@
 			);
 			name = JSONModel;
 			productName = JSONModel;
-			productReference = 428D9478DA64F043ABA76BC1F952DDEE /* JSONModel.framework */;
+			productReference = 9D69ECBC6126ED26DA20D3A5F9DBED8F /* JSONModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCBB53957885ECC675F1FC9D4A419C79 /* DeepLinkKit */ = {
@@ -477,7 +552,7 @@
 			);
 			name = DeepLinkKit;
 			productName = DeepLinkKit;
-			productReference = 069FE7B12DFF5A3941FC55FCB56FF1D2 /* DeepLinkKit.framework */;
+			productReference = DFF8F2B9337C1DB1C181293E6C58E201 /* DeepLinkKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -497,18 +572,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3F6E750E0E352C7C716D03F069AAD3E8 /* Products */;
+			productRefGroup = E2DAA16BE5BB9D65C5E9FE3B9460ABDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DCBB53957885ECC675F1FC9D4A419C79 /* DeepLinkKit */,
 				DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */,
 				36B3228744FDD0F84354334A87ADEE9E /* Pods-BTRouteDemo */,
+				653B58E44F126C536B67BC9EF73B4778 /* Pods-BTRouteDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A1174E9663EE933C4C9EE274340946F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2A4E95453C38631738A61DE292D4EC /* Pods-BTRouteDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85A50ACD400CE95B28D80FFDD2C0CB93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -569,6 +653,12 @@
 			name = JSONModel;
 			target = DC3688684BF42A20A8998F31DDA51A49 /* JSONModel */;
 			targetProxy = D7D32ADF7842C8A5A2178138D449C2E4 /* PBXContainerItemProxy */;
+		};
+		B73321FC6C3BFC66AB2317AE8FE63AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BTRouteDemo";
+			target = 36B3228744FDD0F84354334A87ADEE9E /* Pods-BTRouteDemo */;
+			targetProxy = CA5F653CD1A687FA5D29154F6AF180C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -669,7 +759,7 @@
 		};
 		2A29B7293E582C621A0052DD11D34F41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17CC62D13E1DE491F11CA004A1CB7AC /* Pods-BTRouteDemo.release.xcconfig */;
+			baseConfigurationReference = 90D280BD76EA11D190A291B7A1CD9348 /* Pods-BTRouteDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -731,6 +821,40 @@
 			};
 			name = Debug;
 		};
+		63F6B6C17E5B3B4605DFA4C0EF6429AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8476149B23A6AE187E0B72495B05441 /* Pods-BTRouteDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTRouteDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTRouteDemoTests/Pods-BTRouteDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C4236AE36EA9A1C347C09625780D82C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3300B34C24F2DADD8C1B12CE51B2254B /* DeepLinkKit.xcconfig */;
@@ -762,9 +886,42 @@
 			};
 			name = Release;
 		};
+		D1E450D019EB8656F3532E0F8BF48C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0187689ACAA3A14EDCEABE41D63200F9 /* Pods-BTRouteDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTRouteDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTRouteDemoTests/Pods-BTRouteDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D8381F9C3B6DF4143EEDFDBA3914B5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C31DA87C10CE719B18F0C868B4DCDC6 /* Pods-BTRouteDemo.debug.xcconfig */;
+			baseConfigurationReference = F67D2BF00E932952FAFFC71D06DCB74F /* Pods-BTRouteDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -909,6 +1066,15 @@
 			buildConfigurations = (
 				D8381F9C3B6DF4143EEDFDBA3914B5BC /* Debug */,
 				2A29B7293E582C621A0052DD11D34F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08C22C1736930E914DB8C036557CADE /* Build configuration list for PBXNativeTarget "Pods-BTRouteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E450D019EB8656F3532E0F8BF48C05 /* Debug */,
+				63F6B6C17E5B3B4605DFA4C0EF6429AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,16 +37,6 @@
         if ([routeMatcher deepLinkWithURL:url]) {
             return YES;
         }
-        
-        // 识别防干扰路由
-        if ([url.scheme isEqualToString:@"abc"]) {
-            NSString *anotherRoute = [route stringByReplacingOccurrencesOfString:@"bt" withString:@"abc"];
-            routeMatcher = [DPLRouteMatcher matcherWithRoute:anotherRoute];
-            
-            if ([routeMatcher deepLinkWithURL:url]) {
-                return YES;
-            }
-        }
     }
     
     return NO;
