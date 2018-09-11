@@ -1,4 +1,4 @@
-# BTRoute - iOS组件化开发之路由方案
+# BTRoute - iOS组件化设计
 
 ## 1. 整体设计
 
